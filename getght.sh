@@ -1,4 +1,4 @@
-echo "echo \<html\>" > gencallght$$
+echo "echo \<html\>\<body\>" > gencallght$$
 go help |
 gawk '
 BEGIN{al =0;}
