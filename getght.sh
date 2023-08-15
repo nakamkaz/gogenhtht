@@ -16,4 +16,4 @@ BEGIN{al =0;}
 sh gencallght$$  \
  |	sed s@BEGINTAG@\<div\>\<pre\>@g  \
  |	sed s@ENDTAG@\</pre\>\</div\>\<hr\ /\>@g 
-rm -f gencallght
+rm -f gencallght$$
